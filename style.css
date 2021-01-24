@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-header {
+  background-image: url("img/bg-header_photo.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+.logo {
+  display: inline-block;
+  background-color: rgb(158, 198, 231);
+  width: 130px;
+  height: 50px;
+  color: white;
+  font-size: 24px;
+  margin-top: 55px;
+  margin-left: 50px;
+  border-radius: 65px / 35px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.main-header-title {
+  text-align: center;
+  color: darkblue;
+  font-size: 36px;
+  line-height: 2.5em;
+  font-weight: 500;
+}
+
+.main-header-nav {
+  width: 100%;
+  height: auto;
+  background-image: url("img/bg-nav.png");
+  background-repeat: repeat;
+  background-size: contain;
+  background-position: center;
+  background-origin: padding-box;
+}
+
+.site-navigation {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.site-navigation-link {
+  text-align: center;
+  color: darkblue;
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: 600;
+}
