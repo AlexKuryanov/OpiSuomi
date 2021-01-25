@@ -27,6 +27,7 @@ body {
   margin: 0 auto;
   font-family: Roboto, sans-serif;
   color: darkblue;
+  font-size: 22px;
 }
 
 .visually-hidden {
@@ -103,13 +104,14 @@ body {
 
 .section-title {
   font-family: Balsamiq Sans, sans-serif;
+  font-size: 36px;
 }
 
 .description-text {
-  font-size: 1.5em;
-  width: 800px;
+  width: 850px;
   margin: 0 auto;
   margin-top: 50px;
+  font-size: 1.5em;
   line-height: 1.4em;
 }
 
@@ -118,20 +120,20 @@ body {
   width: 800px;
   margin: 0 auto;
   margin-top: 50px;
-  line-height: 2em;
+  line-height: 1.5em;
 }
 
 .about {
   width: 1200px;
-  height: 550px;
-  background-image: url("svg/spot\ blue.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  height: 680px;
+  background-image: url("svg/spot\ blue.svg"), url("img/Ville's_photo.png");
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, 30%;
+  background-position: center, right 85px;
 }
 
 .about-title {
-  padding: 120px 350px 0px 200px;
+  padding: 150px 350px 0px 200px;
 }
 
 .about-text {
@@ -139,16 +141,16 @@ body {
   margin: 0 200px 0 200px;
   margin-top: 20px;
   line-height: 1.4em;
-  font-size: 19px;
+  font-size: 22px;
 }
 
 .frida {
   width: 1200px;
-  height: 550px;
-  background-image: url("svg/spot\ pink\ frida.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  height: 680px;
+  background-image: url("img/friida_big.png"), url("svg/banner\ frida.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 30%, contain;
+  background-position: left 65px, center;
 }
 
 .frida-title {
@@ -159,7 +161,7 @@ body {
   width: 500px;
   margin: 20px 500px 0;
   line-height: 1.4em;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .textbooks {
@@ -205,6 +207,11 @@ body {
   background-image: url("img/suomen-mestari-04.png");
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.caption {
+  text-align: center;
+  margin-bottom: 150px;
 }
 
 .main-footer {
