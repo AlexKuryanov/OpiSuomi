@@ -23,6 +23,8 @@
 }
 
 body {
+  width: 1200px;
+  margin: 0 auto;
   font-family: Roboto, sans-serif;
   color: darkblue;
 }
@@ -66,23 +68,32 @@ body {
 }
 
 .main-header-nav {
-  width: 100%;
-  height: auto;
-  background-image: url("img/bg-nav.png");
+  margin: 0;
+  width: auto;
+  height: 150px;
+  background-image: url("svg/yellow\ stripe.svg");
   background-repeat: repeat;
-  background-size: contain;
-  background-position: center;
-  background-origin: padding-box;
+  background-size: cover;
+  background-position: bottom;
 }
 
 .site-navigation {
+  margin-top: -50px;
+  margin-bottom: -50px;
   list-style: none;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+}
+
+.site-navigation-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .site-navigation-link {
-  text-align: center;
+  padding: 50px;
   color: darkblue;
   font-family: Balsamiq Sans Bold, sans-serif;
   font-size: 30px;
@@ -97,16 +108,27 @@ body {
 .about {
   width: 1200px;
   height: 550px;
-  background-image: url("img/bg-about_photo.png");
+  background-image: url("svg/spot\ blue.svg");
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center;
 }
 
 .frida {
   width: 1200px;
   height: 550px;
-  background-image: url("img/bg-header_second.png");
+  background-image: url("svg/spot\ pink\ frida.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: right;
+  background-position: center;
+}
+
+.main-footer {
+  margin: 0;
+  width: auto;
+  height: 250px;
+  background-image: url("svg/footer.svg");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: bottom;
 }
