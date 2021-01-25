@@ -94,7 +94,7 @@ body {
 }
 
 .site-navigation-link {
-  padding: 50px;
+  padding: 60px;
   color: darkblue;
   font-family: Balsamiq Sans Bold, sans-serif;
   font-size: 30px;
@@ -164,13 +164,11 @@ body {
   font-size: 22px;
 }
 
-.textbooks {
-}
-
 .textbook-title {
   text-align: center;
   margin-top: 70px;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  margin-bottom: 70px;
 }
 
 .textbook-list {
@@ -214,12 +212,35 @@ body {
   margin-bottom: 150px;
 }
 
+.caption-link {
+  text-decoration: none;
+}
+
 .main-footer {
-  margin: 0;
+  margin: -30px;
   width: auto;
   height: 250px;
   background-image: url("svg/footer.svg");
   background-repeat: repeat;
   background-size: cover;
   background-position: bottom;
+}
+
+.social-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-link {
+  text-decoration: none;
+  padding-top: 120px;
+  margin-left: 50px;
 }
