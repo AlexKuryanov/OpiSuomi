@@ -32,9 +32,12 @@ body {
 }
 
 .main-header {
+  width: 1200px;
+  height: 550px;
+  margin: 0 auto;
   background-image: url("img/bg-header_photo.png");
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: contain;
   background-position: center;
 }
 
@@ -89,4 +92,21 @@ body {
 
 .section-title {
   font-family: Balsamiq Sans, sans-serif;
+}
+
+.about {
+  width: 1200px;
+  height: 550px;
+  background-image: url("img/bg-about_photo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.frida {
+  width: 1200px;
+  height: 550px;
+  background-image: url("img/bg-header_second.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
 }
