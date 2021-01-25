@@ -105,6 +105,22 @@ body {
   font-family: Balsamiq Sans, sans-serif;
 }
 
+.description-text {
+  font-size: 1.5em;
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+  line-height: 1.4em;
+}
+
+.description-list {
+  font-size: 1.5em;
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+  line-height: 2em;
+}
+
 .about {
   width: 1200px;
   height: 550px;
@@ -114,6 +130,18 @@ body {
   background-position: center;
 }
 
+.about-title {
+  padding: 120px 350px 0px 200px;
+}
+
+.about-text {
+  width: 500px;
+  margin: 0 200px 0 200px;
+  margin-top: 20px;
+  line-height: 1.4em;
+  font-size: 19px;
+}
+
 .frida {
   width: 1200px;
   height: 550px;
@@ -121,6 +149,17 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+}
+
+.frida-title {
+  padding: 120px 0px 0px 500px;
+}
+
+.frida-text {
+  width: 500px;
+  margin: 20px 500px 0;
+  line-height: 1.4em;
+  font-size: 20px;
 }
 
 .main-footer {
