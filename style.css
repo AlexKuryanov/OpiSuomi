@@ -39,7 +39,7 @@ body {
   margin: 0 auto;
   background-image: url("img/bg-header_photo.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
 }
 
@@ -160,6 +160,51 @@ body {
   margin: 20px 500px 0;
   line-height: 1.4em;
   font-size: 20px;
+}
+
+.textbooks {
+}
+
+.textbook-title {
+  text-align: center;
+  margin-top: 70px;
+  font-size: 2rem;
+}
+
+.textbook-list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.textbook-item {
+  width: 200px;
+  height: 320px;
+  margin-left: 0;
+}
+
+.textbook-item:first-child {
+  background-image: url("img/suomen-mestari-01.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.textbook-item:nth-child(2) {
+  background-image: url("img/suomen-mestari-02.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.textbook-item:nth-child(3) {
+  background-image: url("img/suomen-mestari-03.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.textbook-item:last-child {
+  background-image: url("img/suomen-mestari-04.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .main-footer {
