@@ -105,6 +105,7 @@ body {
 .site-navigation-link:hover {
   text-decoration: underline;
   color: blue;
+  opacity: 0.8;
 }
 
 .site-navigation-link:active {
@@ -227,8 +228,9 @@ body {
 }
 
 .caption-link:hover {
-  color: blue;
   text-decoration: underline;
+  color: blue;
+  opacity: 0.8;
 }
 
 .caption-link:active {
@@ -264,6 +266,14 @@ body {
   margin-left: 20px;
   text-decoration: none;
   color: transparent;
+}
+
+.social-link:hover {
+  opacity: 0.8;
+}
+
+.social-link:active {
+  opacity: 0.5;
 }
 
 .vkontakte-icon {
