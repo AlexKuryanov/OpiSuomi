@@ -230,17 +230,55 @@ body {
   list-style: none;
   display: flex;
   justify-content: center;
-  align-items: center;
+  padding-top: 70px;
 }
 
 .social-item {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .social-link {
+  width: 64px;
+  height: 64px;
+  background: url("img/sprite64.png") no-repeat;
+  margin-left: 20px;
   text-decoration: none;
-  padding-top: 120px;
-  margin-left: 50px;
+  color: transparent;
+}
+
+.vkontakte-icon {
+  background-position: 0 0;
+}
+
+.facebook-icon {
+  background-position: -64px 0px;
+}
+
+.twitter-icon {
+  background-position: -128px 0px;
+}
+
+.telegram-icon {
+  background-position: -192px 0px;
+}
+
+.whatsapp-icon {
+  background-position: -256px 0px;
+}
+
+.discord-icon {
+  background-position: -320px 0px;
+}
+
+.youtube-icon {
+  background-position: -384px 0px;
+}
+
+.skype-icon {
+  background-position: -448px 0px;
+}
+
+.instagram-icon {
+  background-position: -512px 0px;
 }
