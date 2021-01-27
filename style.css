@@ -68,7 +68,7 @@ body {
   font-weight: 500;
 }
 
-.main-header-nav {
+.main-nav {
   margin: 0;
   width: auto;
   height: 150px;
@@ -100,6 +100,15 @@ body {
   font-size: 30px;
   text-decoration: none;
   font-weight: 600;
+}
+
+.site-navigation-link:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.site-navigation-link:active {
+  color: lightblue;
 }
 
 .section-title {
@@ -214,6 +223,16 @@ body {
 
 .caption-link {
   text-decoration: none;
+  color: darkblue;
+}
+
+.caption-link:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.caption-link:active {
+  color: lightblue;
 }
 
 .main-footer {
@@ -281,4 +300,10 @@ body {
 
 .instagram-icon {
   background-position: -512px 0px;
+}
+
+.copyright {
+  color: darkblue;
+  text-align: center;
+  margin-top: 50px;
 }
