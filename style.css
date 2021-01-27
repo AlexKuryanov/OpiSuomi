@@ -109,7 +109,7 @@ body {
 }
 
 .site-navigation-link:active {
-  color: lightblue;
+  opacity: 0.5;
 }
 
 .section-title {
@@ -234,7 +234,7 @@ body {
 }
 
 .caption-link:active {
-  color: lightblue;
+  opacity: 0.5;
 }
 
 .main-footer {
