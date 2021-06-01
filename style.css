@@ -60,12 +60,13 @@ body {
 }
 
 .main-header-title {
+  min-width: 460px;
   text-align: center;
   font-family: Flowext, sans-serif;
   color: darkblue;
   font-size: 36px;
-  line-height: 2.5em;
-  font-weight: 500;
+  line-height: 3.5em;
+  font-weight: 700;
 }
 
 .main-nav {
@@ -114,7 +115,11 @@ body {
 
 .section-title {
   font-family: Balsamiq Sans, sans-serif;
-  font-size: 36px;
+  font-size: 32px;
+}
+
+.anchor{
+  text-decoration: none;
 }
 
 .description-text {
@@ -151,7 +156,7 @@ body {
   margin: 0 200px 0 200px;
   margin-top: 20px;
   line-height: 1.4em;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .frida {
@@ -171,7 +176,7 @@ body {
   width: 500px;
   margin: 20px 500px 0;
   line-height: 1.4em;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .textbook-title {
