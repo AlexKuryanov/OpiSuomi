@@ -1,7 +1,7 @@
 # OpiSuomi
 Финский онлайн с носителем индивидуально и в группах
 
-https://alexkuryanov.github.io/OpiSuomi/suomi.html
+https://alexkuryanov.github.io/OpiSuomi/index.html
 
 
 Сайт в процессе наполнения, кто хочет начать изучать финский: контакты актуальные
