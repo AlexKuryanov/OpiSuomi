@@ -13,7 +13,7 @@
 @font-face {
   font-family: Flowext Bold;
   font-weight: bold;
-  src: url("fonts/flowext bold.otf ");
+  src: url("fonts/flowext-bold.otf ");
 }
 
 @font-face {
@@ -72,7 +72,7 @@ body {
   margin: 0;
   width: auto;
   height: 150px;
-  background-image: url("svg/yellow\ stripe.svg");
+  background-image: url("svg/yellow_stripe.svg");
   background-repeat: repeat;
   background-size: cover;
   background-position: bottom;
@@ -140,7 +140,7 @@ body {
 .about {
   width: 1200px;
   height: 680px;
-  background-image: url("svg/spot\ blue.svg"), url("img/Ville's_photo.png");
+  background-image: url("svg/spot_blue.svg"), url("img/Ville's_photo.png");
   background-repeat: no-repeat, no-repeat;
   background-size: contain, 30%;
   background-position: center, right 85px;
@@ -161,7 +161,7 @@ body {
 .frida {
   width: 1200px;
   height: 680px;
-  background-image: url("img/friida_big.png"), url("svg/banner\ frida.svg");
+  background-image: url("img/friida_big.png"), url("svg/banner_frida.svg");
   background-repeat: no-repeat, no-repeat;
   background-size: 30%, contain;
   background-position: left 65px, center;
